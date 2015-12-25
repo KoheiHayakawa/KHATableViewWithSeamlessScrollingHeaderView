@@ -1,0 +1,14 @@
+PODS:
+  - KHATableViewWithSeamlessScrollingHeaderView (1.0.0)
+
+DEPENDENCIES:
+  - KHATableViewWithSeamlessScrollingHeaderView (from `..`)
+
+EXTERNAL SOURCES:
+  KHATableViewWithSeamlessScrollingHeaderView:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  KHATableViewWithSeamlessScrollingHeaderView: d40700e6b41c414525ecb7517766333c3097b5f8
+
+COCOAPODS: 0.39.0

@@ -1,15 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1012" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s6f-Pd-COA">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Star Wars IV: A New Hope" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REx-5w-CKk">
+                    <rect key="frame" x="134" y="0.0" width="458" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="x6W-jC-EjS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Williams: London Symphony Orchestra" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rU4-bW-gFu">
+                    <rect key="frame" x="134" y="24" width="458" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="cS6-Gd-SyC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soundtrack・1977" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HW2-ge-hxz">
+                    <rect key="frame" x="134" y="42" width="458" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="nsd-i3-95D"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaB-4W-9Sw">
+                    <rect key="frame" x="564" y="88" width="22" height="22"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSU-jb-3Sy">
+                    <rect key="frame" x="529" y="88" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="m8M-Bu-rMj"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Z8-Lp-Ui3">
+                    <rect key="frame" x="0.0" y="128" width="600" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XX0-fb-7LA">
+                    <rect key="frame" x="16" y="0.0" width="110" height="110"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="o6C-2Y-34B"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rU4-bW-gFu" firstAttribute="top" secondItem="REx-5w-CKk" secondAttribute="bottom" constant="2" id="51Y-tg-LUP"/>
+                <constraint firstAttribute="bottom" secondItem="1Z8-Lp-Ui3" secondAttribute="bottom" constant="-1" id="8hg-3L-QsD"/>
+                <constraint firstItem="rU4-bW-gFu" firstAttribute="leading" secondItem="HW2-ge-hxz" secondAttribute="leading" id="BIM-Uf-W9N"/>
+                <constraint firstAttribute="trailing" secondItem="jaB-4W-9Sw" secondAttribute="trailing" constant="14" id="FMu-pR-1WN"/>
+                <constraint firstItem="REx-5w-CKk" firstAttribute="leading" secondItem="XX0-fb-7LA" secondAttribute="trailing" constant="8" symbolic="YES" id="FQB-Wg-lkI"/>
+                <constraint firstAttribute="trailing" secondItem="1Z8-Lp-Ui3" secondAttribute="trailing" id="GPd-jW-NbC"/>
+                <constraint firstItem="REx-5w-CKk" firstAttribute="trailing" secondItem="s6f-Pd-COA" secondAttribute="trailingMargin" id="Hj3-hh-o08"/>
+                <constraint firstItem="jaB-4W-9Sw" firstAttribute="leading" secondItem="RSU-jb-3Sy" secondAttribute="trailing" constant="13" id="IJd-bc-8zu"/>
+                <constraint firstItem="1Z8-Lp-Ui3" firstAttribute="leading" secondItem="s6f-Pd-COA" secondAttribute="leading" id="LdT-rt-Eot"/>
+                <constraint firstItem="rU4-bW-gFu" firstAttribute="trailing" secondItem="REx-5w-CKk" secondAttribute="trailing" id="NvG-9d-enu"/>
+                <constraint firstItem="1Z8-Lp-Ui3" firstAttribute="top" secondItem="XX0-fb-7LA" secondAttribute="bottom" constant="18" id="PT4-mv-VdJ"/>
+                <constraint firstItem="RSU-jb-3Sy" firstAttribute="top" secondItem="HW2-ge-hxz" secondAttribute="bottom" constant="32" id="PVa-LZ-lTe"/>
+                <constraint firstItem="RSU-jb-3Sy" firstAttribute="top" secondItem="jaB-4W-9Sw" secondAttribute="top" id="QzG-sj-TaC"/>
+                <constraint firstItem="XX0-fb-7LA" firstAttribute="leading" secondItem="s6f-Pd-COA" secondAttribute="leading" constant="16" id="SIV-Bw-QF0"/>
+                <constraint firstAttribute="height" constant="128" id="dhJ-Vq-I3r"/>
+                <constraint firstItem="HW2-ge-hxz" firstAttribute="top" secondItem="rU4-bW-gFu" secondAttribute="bottom" constant="2" id="gqg-1i-nGw"/>
+                <constraint firstItem="HW2-ge-hxz" firstAttribute="trailing" secondItem="rU4-bW-gFu" secondAttribute="trailing" id="h9A-xv-yyZ"/>
+                <constraint firstItem="REx-5w-CKk" firstAttribute="top" secondItem="XX0-fb-7LA" secondAttribute="top" id="kvg-6I-HGc"/>
+                <constraint firstItem="REx-5w-CKk" firstAttribute="top" secondItem="s6f-Pd-COA" secondAttribute="top" id="qjI-1C-oVa"/>
+                <constraint firstItem="REx-5w-CKk" firstAttribute="leading" secondItem="rU4-bW-gFu" secondAttribute="leading" id="rP4-uI-XR3"/>
+                <constraint firstItem="RSU-jb-3Sy" firstAttribute="bottom" secondItem="XX0-fb-7LA" secondAttribute="bottom" id="vTO-Wl-ysG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="dhJ-Vq-I3r"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="245" y="339"/>
         </view>
     </objects>
 </document>

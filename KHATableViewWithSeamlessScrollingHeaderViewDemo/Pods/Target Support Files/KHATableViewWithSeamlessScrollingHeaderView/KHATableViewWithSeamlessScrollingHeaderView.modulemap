@@ -1,0 +1,6 @@
+framework module KHATableViewWithSeamlessScrollingHeaderView {
+  umbrella header "KHATableViewWithSeamlessScrollingHeaderView-umbrella.h"
+
+  export *
+  module * { export * }
+}
