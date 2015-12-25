@@ -19,7 +19,7 @@ pod 'KHATableViewWithSeamlessScrollingHeaderView'
 * Swift 2.0
 
 ###Interface
-<img alt="demo" src="https://raw.githubusercontent.com/wiki/KoheiHayakawa/KHATableViewWithSeamlessScrollingHeaderView/images/demo.gif" width="200"/>
+<img alt="demo" src="https://raw.githubusercontent.com/wiki/KoheiHayakawa/KHATableViewWithSeamlessScrollingHeaderView/images/demo.gif" width="350"/>
 
 
 ###Usage
