@@ -52,7 +52,7 @@ class MusicViewController: KHATableViewWithSeamlessScrollingHeaderViewController
 }
 ```
 
-We have to set "NO" to "View controller-based status bar appearance" at Info.plist
+"View controller-based status bar appearance" must be set "NO" at Info.plist
 
 ###Contact
 [@pettarou2](https://twitter.com/pettarou2)
