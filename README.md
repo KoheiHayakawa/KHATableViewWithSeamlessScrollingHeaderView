@@ -1,0 +1,2 @@
+# KHATableViewWithSeamlessScrollingHeaderView
+Seamless and transparent scrolling header
