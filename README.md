@@ -19,11 +19,8 @@ pod 'KHATableViewWithSeamlessScrollingHeaderView'
 * Swift 2.0
 
 ###Interface
-<img alt="demo" src="https://raw.githubusercontent.com/wiki/KoheiHayakawa/KHAForm/images/demo.gif" width="200"/>
+<img alt="demo" src="https://raw.githubusercontent.com/wiki/KoheiHayakawa/KHATableViewWithSeamlessScrollingHeaderView/images/demo.gif" width="200"/>
 
-<img alt="Screen Shot 01" src="https://raw.githubusercontent.com/wiki/KoheiHayakawa/KHAForm/images/screen_shot_01.png" width="200"/>
-<img alt="Screen Shot 02" src="https://raw.githubusercontent.com/wiki/KoheiHayakawa/KHAForm/images/screen_shot_02.png" width="200"/>
-<img alt="Screen Shot 03" src="https://raw.githubusercontent.com/wiki/KoheiHayakawa/KHAForm/images/screen_shot_03.png" width="200"/>
 
 ###Usage
 ```swift
