@@ -21,6 +21,8 @@ pod 'KHATableViewWithSeamlessScrollingHeaderView'
 ###Interface
 <img alt="demo" src="https://raw.githubusercontent.com/wiki/KoheiHayakawa/KHATableViewWithSeamlessScrollingHeaderView/images/demo.gif" width="350"/>
 
+like Music app of iOS 9
+
 ###Usage
 ```swift
 import UIKit
